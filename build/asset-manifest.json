@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/perpustakaan/static/css/main.1822323e.chunk.css",
+    "main.js": "/perpustakaan/static/js/main.0a99ab21.chunk.js",
+    "runtime-main.js": "/perpustakaan/static/js/runtime-main.97aaf9a4.js",
+    "static/js/2.658b3ba7.chunk.js": "/perpustakaan/static/js/2.658b3ba7.chunk.js",
+    "static/js/3.3f2e311d.chunk.js": "/perpustakaan/static/js/3.3f2e311d.chunk.js",
+    "index.html": "/perpustakaan/index.html",
+    "static/js/2.658b3ba7.chunk.js.LICENSE.txt": "/perpustakaan/static/js/2.658b3ba7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.97aaf9a4.js",
+    "static/js/2.658b3ba7.chunk.js",
+    "static/css/main.1822323e.chunk.css",
+    "static/js/main.0a99ab21.chunk.js"
+  ]
+}
