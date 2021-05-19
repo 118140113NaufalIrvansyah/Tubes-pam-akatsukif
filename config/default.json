@@ -1,0 +1,4 @@
+{
+  "MongoURI": "mongodb+srv://admin:admin@cluster0.7ztzs.mongodb.net/perpustakaan?retryWrites=true&w=majority",
+  "SecretKey": "tubes"
+}
