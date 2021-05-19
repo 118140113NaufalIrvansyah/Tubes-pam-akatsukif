@@ -1,0 +1,86 @@
+.register {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.register > form {
+  display: flex;
+  flex-direction: column;
+  background-color: #606060;
+  align-items: center;
+  width: 50%;
+  padding: 40px 20px 40px 20px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px #999999;
+  background-color: #99FF99;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Logo_ITERA.png/768px-Logo_ITERA.png');
+  background-size: 750px 550px;
+}
+
+.register > form > span {
+  font-size: 35px;
+  margin-bottom: 15px;
+  color: #606060;
+}
+
+.register > form > input {
+  height: 40px;
+  margin-bottom: 15px;
+  padding: 0 10px 0 10px;
+  outline: none;
+  border: none;
+  box-shadow: 0 0 3px #999999;
+  font-size: 18px;
+  border-radius: 3px;
+  width: 100%;
+  color: #586069;
+}
+
+.register > form > input::placeholder {
+  color: #d1d5da;
+}
+
+.register > form > button {
+  height: 40px;
+  outline: none;
+  border: none;
+  box-shadow: 0 0 3px #999999;
+  border-radius: 3px;
+  background-color: #FF8C00;
+  font-size: 18px;
+  color: #606060;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.register > form > button:hover {
+  background-color: #FF8C00;
+}
+
+.register > form > a {
+  color: #606060;
+}
+
+@media only screen and (max-width: 992px) {
+  .register > form {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .register > form {
+    width: 90%;
+  }
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#iconLoading {
+  animation: spin 1s linear infinite;
+}
